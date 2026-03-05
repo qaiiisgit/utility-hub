@@ -1,16 +1,56 @@
-# React + Vite
+<div align="center">
+  <h1>🛠️ UtilityHub</h1>
+  <p><strong>Your All-in-One Daily Utility Toolkit</strong></p>
+  <p>A modern utility management platform with 10+ everyday tools built with React, Vite & Tailwind CSS.</p>
+</div>
+  ---
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## 📋 Table of Contents
 
-Currently, two official plugins are available:
+- [Features](#-features)
+- [Utility Tools](#-utility-tools)
+- [Tech Stack](#-tech-stack)
+- [Project Structure](#-project-structure)
+- [Getting Started](#-getting-started)
+- [Deployment](#-deployment)
+- [Contributing](#-contributing)
+- [License](#-license)
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+---
 
-## React Compiler
+## ✨ Features
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+- 🔐 **Authentication** — Register, Login, Logout with persistent sessions (localStorage)
+- 🛡️ **Protected Routes** — Tools accessible only after login
+- 🌙 **Dark Theme** — Beautiful dark UI with indigo-purple gradient accents
+- 📱 **Fully Responsive** — Works on mobile, tablet & desktop
+- 💫 **Smooth Animations** — Hover effects, transitions, floating elements
+- 🚫 **Zero Ads** — Clean, distraction-free experience
+- 💾 **Data Persistence** — Todos, notes & sessions saved in browser storage
 
-## Expanding the ESLint configuration
+---
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## 🧰 Utility Tools
+
+| # | Tool | Description |
+|---|------|-------------|
+| 1 | 🧮 **Calculator** | Basic & advanced math operations with equation history |
+| 2 | 💱 **Currency Converter** | Convert between 10 world currencies with swap |
+| 3 | 📝 **Todo List** | Add, complete, delete, filter tasks with persistence |
+| 4 | 🔐 **Password Generator** | Customizable length, character types, strength meter |
+
+---
+
+## 🛠 Tech Stack
+
+| Technology | Purpose |
+|-----------|---------|
+| React 19 | Component-based UI |
+| JavaScript ES6+ | Core language |
+| Vite 6 | Fast build tool & dev server |
+| React Router 7 | Client-side routing |
+| Tailwind CSS 4 | Utility-first styling |
+| Context API | Global auth state management |
+| localStorage | Browser data persistence |
+
+---
