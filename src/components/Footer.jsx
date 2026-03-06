@@ -2,6 +2,11 @@
 import { Link } from 'react-router-dom'
 
 const Footer = () => {
+  const socialLinks = {
+    Twitter: "https://twitter.com/yourusername",
+    GitHub: "https://github.com/qaiiisgit",
+    LinkedIn: "https://linkedin.com/in/md-qais-khan"
+  };
   return (
     <footer className="bg-gray-900 border-t border-gray-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
@@ -54,13 +59,15 @@ const Footer = () => {
             © {new Date().getFullYear()} UtilityHub. All rights reserved.
           </p>
           <div className="flex gap-4">
-            {['Twitter', 'GitHub', 'LinkedIn'].map(social => (
+            {Object.entries(socialLinks).map(([social, link]) => (
               <a
                 key={social}
-                href="#"
-                className="text-gray-500 hover:text-indigo-400 text-sm transition-colors"
-              >
+                href={link}
+                target='_blank'
+                rel='noopener noreferrer'
+                className="text-gray-500 hover:text-indigo-400 text-sm transition-colors">
                 {social}
+
               </a>
             ))}
           </div>
