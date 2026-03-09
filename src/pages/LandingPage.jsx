@@ -23,11 +23,11 @@ const features = [
     title: 'Todo List',
     description: 'Organize your tasks and boost your productivity effortlessly.',
   },
-  // {
-  //   icon: '⚖️',
-  //   title: 'BMI Calculator',
-  //   description: 'Calculate your Body Mass Index and track your health metrics.',
-  // },
+  {
+    icon: '⚖️',
+    title: 'BMI Calculator',
+    description: 'Calculate your Body Mass Index and track your health metrics.',
+  },
   // {
   //   icon: '📐',
   //   title: 'Unit Converter',
