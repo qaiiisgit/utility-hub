@@ -31,13 +31,13 @@ const utilities = [
     path: '/utility/password-generator',
     linear: 'from-red-500 to-pink-500',
   },
-  // {
-  //   title: 'BMI Calculator',
-  //   description: 'Calculate your Body Mass Index for health tracking.',
-  //   icon: '⚖️',
-  //   path: '/utility/bmi-calculator',
-  //   linear: 'from-purple-500 to-violet-500',
-  // },
+  {
+    title: 'BMI Calculator',
+    description: 'Calculate your Body Mass Index for health tracking.',
+    icon: '⚖️',
+    path: '/utility/bmi-calculator',
+    linear: 'from-purple-500 to-violet-500',
+  },
   // {
   //   title: 'Unit Converter',
   //   description: 'Convert between various units of measurement.',
