@@ -13,7 +13,7 @@ import Calculator from './pages/utilities/Calculator'
 import CurrencyConverter from './pages/utilities/CurrencyConverter'
 import TodoList from './pages/utilities/TodoList'
 import PasswordGenerator from './pages/utilities/PasswordGenerator'
-// import BMICalculator from './pages/utilities/BMICalculator'
+import BMICalculator from './pages/utilities/BMICalculator'
 // import UnitConverter from './pages/utilities/UnitConverter'
 // import NotePad from './pages/utilities/NotePad'
 // import ColorPicker from './pages/utilities/ColorPicker'
@@ -46,9 +46,10 @@ const App = () => {
           <Route path="/utility/password-generator" element={
             <ProtectedRoute><PasswordGenerator /></ProtectedRoute>
           } />
-          {/* <Route path="/utility/bmi-calculator" element={
+           <Route path="/utility/bmi-calculator" element={
             <ProtectedRoute><BMICalculator /></ProtectedRoute>
-          } />
+          }></Route>
+          {/* 
           <Route path="/utility/unit-converter" element={
             <ProtectedRoute><UnitConverter /></ProtectedRoute>
           } />
