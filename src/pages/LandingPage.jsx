@@ -28,11 +28,11 @@ const features = [
     title: 'BMI Calculator',
     description: 'Calculate your Body Mass Index and track your health metrics.',
   },
-  // {
-  //   icon: '📐',
-  //   title: 'Unit Converter',
-  //   description: 'Convert between various units of measurement quickly.',
-  // },
+  {
+    icon: '📐',
+    title: 'Unit Converter',
+    description: 'Convert between various units of measurement quickly.',
+  },
 ]
 
 const stats = [
