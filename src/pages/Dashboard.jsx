@@ -38,13 +38,13 @@ const utilities = [
     path: '/utility/bmi-calculator',
     linear: 'from-purple-500 to-violet-500',
   },
-  // {
-  //   title: 'Unit Converter',
-  //   description: 'Convert between various units of measurement.',
-  //   icon: '📐',
-  //   path: '/utility/unit-converter',
-  //   linear: 'from-teal-500 to-cyan-500',
-  // },
+  {
+    title: 'Unit Converter',
+    description: 'Convert between various units of measurement.',
+    icon: '📐',
+    path: '/utility/unit-converter',
+    linear: 'from-teal-500 to-cyan-500',
+  },
   // {
   //   title: 'Notepad',
   //   description: 'Quick note-taking with auto-save functionality.',
