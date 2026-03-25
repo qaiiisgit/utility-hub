@@ -45,13 +45,13 @@ const utilities = [
     path: '/utility/unit-converter',
     linear: 'from-teal-500 to-cyan-500',
   },
-  // {
-  //   title: 'Notepad',
-  //   description: 'Quick note-taking with auto-save functionality.',
-  //   icon: '📒',
-  //   path: '/utility/notepad',
-  //   linear: 'from-yellow-500 to-orange-500',
-  // },
+  {
+    title: 'Notepad',
+    description: 'Quick note-taking with auto-save functionality.',
+    icon: '📒',
+    path: '/utility/notepad',
+    linear: 'from-yellow-500 to-orange-500',
+  },
   // {
   //   title: 'Color Picker',
   //   description: 'Pick and convert colors in various formats.',
