@@ -15,7 +15,7 @@ import TodoList from './pages/utilities/TodoList'
 import PasswordGenerator from './pages/utilities/PasswordGenerator'
 import BMICalculator from './pages/utilities/BMICalculator'
 import UnitConverter from './pages/utilities/UnitConverter'
-// import NotePad from './pages/utilities/NotePad'
+import NotePad from './pages/utilities/NotePad'
 // import ColorPicker from './pages/utilities/ColorPicker'
 // import StopWatch from './pages/utilities/StopWatch'
 // import AgeCalculator from './pages/utilities/AgeCalculator'
@@ -53,6 +53,9 @@ const App = () => {
           <Route path= "utility/unit-converter" element={
             <ProtectedRoute><UnitConverter/></ProtectedRoute>
           }/>
+          <Route path="/utility/notepad" element={
+            <ProtectedRoute><NotePad /></ProtectedRoute>
+          } />
           {/* 
           <Route path="/utility/notepad" element={
             <ProtectedRoute><NotePad /></ProtectedRoute>
