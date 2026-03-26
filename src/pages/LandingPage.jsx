@@ -73,7 +73,7 @@ const LandingPage = () => {
 
             <p className="text-lg sm:text-xl text-gray-400 max-w-2xl mx-auto mb-10 leading-relaxed">
               Access powerful everyday tools all in one place. From calculators to converters,
-              password generators to note-taking — everything you need, beautifully crafted.
+              password generators to note-taking everything you need, beautifully crafted.
             </p>
 
             <div className="flex flex-col sm:flex-row items-center justify-center gap-4">
