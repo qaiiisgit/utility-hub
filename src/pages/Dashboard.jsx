@@ -89,7 +89,7 @@ const Dashboard = () => {
           </span>
           ! 👋
         </h1>
-        <p className="text-gray-400 text-lg">
+        <p className="text-gray-400 text-lg hover:text-gray-100 transition-colors duration-300">
           Select a utility tool below to get started.
         </p>
       </div>
