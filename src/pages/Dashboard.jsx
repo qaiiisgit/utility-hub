@@ -52,13 +52,13 @@ const utilities = [
     path: '/utility/notepad',
     linear: 'from-yellow-500 to-orange-500',
   },
-  // {
-  //   title: 'Color Picker',
-  //   description: 'Pick and convert colors in various formats.',
-  //   icon: '🎨',
-  //   path: '/utility/color-picker',
-  //   linear: 'from-pink-500 to-rose-500',
-  // },
+  {
+    title: 'Color Picker',
+    description: 'Pick and convert colors in various formats.',
+    icon: '🎨',
+    path: '/utility/color-picker',
+    linear: 'from-pink-500 to-rose-500',
+  },
   // {
   //   title: 'Stopwatch',
   //   description: 'Precise timing with lap tracking capabilities.',
