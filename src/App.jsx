@@ -16,7 +16,7 @@ import PasswordGenerator from './pages/utilities/PasswordGenerator'
 import BMICalculator from './pages/utilities/BMICalculator'
 import UnitConverter from './pages/utilities/UnitConverter'
 import NotePad from './pages/utilities/NotePad'
-// import ColorPicker from './pages/utilities/ColorPicker'
+import ColorPicker from './pages/utilities/ColorPicker'
 // import StopWatch from './pages/utilities/StopWatch'
 // import AgeCalculator from './pages/utilities/AgeCalculator'
 
@@ -56,19 +56,17 @@ const App = () => {
           <Route path="/utility/notepad" element={
             <ProtectedRoute><NotePad /></ProtectedRoute>
           } />
-          {/* 
-          <Route path="/utility/notepad" element={
-            <ProtectedRoute><NotePad /></ProtectedRoute>
-          } />
           <Route path="/utility/color-picker" element={
             <ProtectedRoute><ColorPicker /></ProtectedRoute>
-          } />
+          }/>
+          {/* 
           <Route path="/utility/stopwatch" element={
             <ProtectedRoute><StopWatch /></ProtectedRoute>
           } />
           <Route path="/utility/age-calculator" element={
             <ProtectedRoute><AgeCalculator /></ProtectedRoute>
-          } /> */}
+          } /> 
+          */}
         </Routes>
       </main>
       <Footer />
