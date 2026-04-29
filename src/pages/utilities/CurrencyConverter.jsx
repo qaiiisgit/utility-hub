@@ -10,9 +10,9 @@ const exchangeRates = {
   JPY: { name: 'Japanese Yen', symbol: '¥', rate: 159.419 },
   CAD: { name: 'Canadian Dollar', symbol: 'C$', rate: 1.36 },
   AUD: { name: 'Australian Dollar', symbol: 'A$', rate: 1.399 },
-  CHF: { name: 'Swiss Franc', symbol: 'Fr', rate: 0.88 },
-  CNY: { name: 'Chinese Yuan', symbol: '¥', rate: 7.24 },
-  BRL: { name: 'Brazilian Real', symbol: 'R$', rate: 4.97 },
+  CHF: { name: 'Swiss Franc', symbol: 'Fr', rate: 0.78524 },
+  CNY: { name: 'Chinese Yuan', symbol: '¥', rate: 6.8265 },
+  BRL: { name: 'Brazilian Real', symbol: 'R$', rate: 5.0031 },
 }
 
 const CurrencyConverter = () => {
