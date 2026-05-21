@@ -59,13 +59,13 @@ const utilities = [
     path: '/utility/color-picker',
     linear: 'from-pink-500 to-rose-500',
   },
-  // {
-  //   title: 'Stopwatch',
-  //   description: 'Precise timing with lap tracking capabilities.',
-  //   icon: '⏱️',
-  //   path: '/utility/stopwatch',
-  //   linear: 'from-indigo-500 to-blue-500',
-  // },
+  {
+    title: 'Stopwatch',
+    description: 'Precise timing with lap tracking capabilities.',
+    icon: '⏱️',
+    path: '/utility/stopwatch',
+    linear: 'from-indigo-500 to-blue-500',
+  },
   // {
   //   title: 'Age Calculator',
   //   description: 'Calculate exact age from your date of birth.',
