@@ -66,13 +66,13 @@ const utilities = [
     path: '/utility/stopwatch',
     linear: 'from-indigo-500 to-blue-500',
   },
-  // {
-  //   title: 'Age Calculator',
-  //   description: 'Calculate exact age from your date of birth.',
-  //   icon: '🎂',
-  //   path: '/utility/age-calculator',
-  //   linear: 'from-fuchsia-500 to-purple-500',
-  // },
+  {
+    title: 'Age Calculator',
+    description: 'Calculate exact age from your date of birth.',
+    icon: '🎂',
+    path: '/utility/age-calculator',
+    linear: 'from-fuchsia-500 to-purple-500',
+  },
 ]
 
 const Dashboard = () => {
