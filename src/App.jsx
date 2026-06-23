@@ -62,11 +62,11 @@ const App = () => {
           <Route path="/utility/stopwatch" element={
             <ProtectedRoute><StopWatch /></ProtectedRoute>
           } />
-          {/* 
+          
           <Route path="/utility/age-calculator" element={
             <ProtectedRoute><AgeCalculator /></ProtectedRoute>
           } /> 
-          */}
+          
         </Routes>
       </main>
       <Footer />
