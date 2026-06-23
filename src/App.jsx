@@ -18,7 +18,7 @@ import UnitConverter from './pages/utilities/UnitConverter'
 import NotePad from './pages/utilities/NotePad'
 import ColorPicker from './pages/utilities/ColorPicker'
 import StopWatch from './pages/utilities/StopWatch'
-// import AgeCalculator from './pages/utilities/AgeCalculator'
+import AgeCalculator from './pages/utilities/AgeCalculator'
 
 const App = () => {
   return (
