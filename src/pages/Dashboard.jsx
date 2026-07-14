@@ -82,12 +82,12 @@ const Dashboard = () => {
     <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-10">
       {/* Welcome Header */}
       <div className="mb-10">
-        <h1 className="text-3xl sm:text-4xl font-bold text-gray-400 hover:text-gray-100 transition-colors duration-300">
+        <h1 className="text-3xl sm:text-4xl font-bold text-gray-400  hover:text-gray-100 transition-colors duration-300">
           Welcome back,{' '}
-          <span className="bg-linear-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent">
+          <span className="bg-linear-to-r from-indigo-400 to-purple-400 bg-clip-text text-transparent ">
             {user?.name}
           </span>
-          ! 👋
+           👋
         </h1>
         <p className="text-gray-400 text-lg hover:text-gray-100 transition-colors duration-300">
           Select a utility tool below to get started.

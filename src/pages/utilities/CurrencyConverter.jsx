@@ -4,10 +4,10 @@ import { Link } from 'react-router-dom'
 
 const exchangeRates = {
   USD: { name: 'US Dollar', symbol: '$', rate: 1 },
-  EUR: { name: 'Euro', symbol: '€', rate: 0.85378 },
-  GBP: { name: 'British Pound', symbol: '£', rate: 0.741145 },
-  INR: { name: 'Indian Rupee', symbol: '₹', rate: 94.17 },
-  JPY: { name: 'Japanese Yen', symbol: '¥', rate: 159.419 },
+  EUR: { name: 'Euro', symbol: '€', rate: 0.92 },
+  GBP: { name: 'British Pound', symbol: '£', rate: 0.79 },
+  INR: { name: 'Indian Rupee', symbol: '₹', rate: 94.15 },
+  JPY: { name: 'Japanese Yen', symbol: '¥', rate: 149.50 },
   CAD: { name: 'Canadian Dollar', symbol: 'C$', rate: 1.36 },
   AUD: { name: 'Australian Dollar', symbol: 'A$', rate: 1.399 },
   CHF: { name: 'Swiss Franc', symbol: 'Fr', rate: 0.78524 },

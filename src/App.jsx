@@ -46,7 +46,8 @@ const App = () => {
           <Route path="/utility/password-generator" element={
             <ProtectedRoute><PasswordGenerator /></ProtectedRoute>
           } />
-           <Route path="/utility/bmi-calculator" element={
+
+          <Route path="/utility/bmi-calculator" element={
             <ProtectedRoute><BMICalculator /></ProtectedRoute>
           }></Route>
 
@@ -65,8 +66,7 @@ const App = () => {
           
           <Route path="/utility/age-calculator" element={
             <ProtectedRoute><AgeCalculator /></ProtectedRoute>
-          } /> 
-          
+          } />
         </Routes>
       </main>
       <Footer />
