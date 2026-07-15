@@ -2,19 +2,12 @@
 import { Link } from 'react-router-dom'
 
 const Footer = () => {
-<<<<<<< HEAD
-=======
-
->>>>>>> 336c589 (perf: code change that improves performance)
   const socialLinks = {
     Twitter: "https://twitter.com/yourusername",
     GitHub: "https://github.com/qaiiisgit",
     LinkedIn: "https://linkedin.com/in/md-qais-khan"
   };
-<<<<<<< HEAD
-=======
 
->>>>>>> 336c589 (perf: code change that improves performance)
   return (
     <footer className="bg-gray-900 border-t border-gray-800">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12">
