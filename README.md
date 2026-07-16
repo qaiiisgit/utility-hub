@@ -2,8 +2,7 @@
   <h1>🛠️ UtilityHub</h1>
   <p><strong>Your All-in-One Daily Utility Toolkit</strong></p>
   <p>A modern utility management platform with 10+ everyday tools built with React, Vite & Tailwind CSS.</p>
-<<<<<<< HEAD
-</div>
+<br/>
   ---
 
 ## 📋 Table of Contents
@@ -31,38 +30,6 @@
 
 ---
 
-=======
-
-  <br />
-
----
-
-## 📋 Table of Contents
-
-- [Features](#-features)
-- [Utility Tools](#-utility-tools)
-- [Tech Stack](#-tech-stack)
-- [Project Structure](#-project-structure)
-- [Getting Started](#-getting-started)
-- [Deployment](#-deployment)
-- [Contributing](#-contributing)
-- [License](#-license)
-
----
-
-## ✨ Features
-
-- 🔐 **Authentication** — Register, Login, Logout with persistent sessions (localStorage)
-- 🛡️ **Protected Routes** — Tools accessible only after login
-- 🌙 **Dark Theme** — Beautiful dark UI with indigo-purple gradient accents
-- 📱 **Fully Responsive** — Works on mobile, tablet & desktop
-- 💫 **Smooth Animations** — Hover effects, transitions, floating elements
-- 🚫 **Zero Ads** — Clean, distraction-free experience
-- 💾 **Data Persistence** — Todos, notes & sessions saved in browser storage
-
----
-
->>>>>>> 336c589 (perf: code change that improves performance)
 ## 🧰 Utility Tools
 
 | # | Tool | Description |
@@ -88,4 +55,3 @@
 
 ---
 
-## 📁 Project Structure
