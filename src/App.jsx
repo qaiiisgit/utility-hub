@@ -3,13 +3,24 @@ import { Suspense, lazy } from 'react'
 import { Routes, Route } from 'react-router-dom'
 import Navbar from './components/Navbar'
 import Footer from './components/Footer'
-import LandingPage from './pages/LandingPage'
-import About from './pages/About'
-import Contact from './pages/Contact'
-import Login from './pages/Login'
-import Register from './pages/Register'
-import Dashboard from './pages/Dashboard'
 import ProtectedRoute from './components/ProtectedRoute'
+
+// Core Pages (Lazy Loaded)
+const LandingPage = lazy(() => import('./pages/LandingPage'));
+const About = lazy(() => import('./pages/About'));
+const Contact = lazy(() => import('./pages/Contact'));
+const Login = lazy(() => import('./pages/Login'));
+const Register = lazy(() => import('./pages/Register'));
+const Dashboard = lazy(() => import('./pages/Dashboard'));
+
+// import LandingPage from './pages/LandingPage'
+// import About from './pages/About'
+// import Contact from './pages/Contact'
+// import Login from './pages/Login'
+// import Register from './pages/Register'
+// import Dashboard from './pages/Dashboard'
+
+
 import Calculator from './pages/utilities/Calculator'
 import CurrencyConverter from './pages/utilities/CurrencyConverter'
 import TodoList from './pages/utilities/TodoList'
@@ -52,19 +63,19 @@ const App = () => {
             <ProtectedRoute><BMICalculator /></ProtectedRoute>
           }></Route>
 
-          <Route path= "utility/unit-converter" element={
-            <ProtectedRoute><UnitConverter/></ProtectedRoute>
-          }/>
+          <Route path="utility/unit-converter" element={
+            <ProtectedRoute><UnitConverter /></ProtectedRoute>
+          } />
           <Route path="/utility/notepad" element={
             <ProtectedRoute><NotePad /></ProtectedRoute>
           } />
           <Route path="/utility/color-picker" element={
             <ProtectedRoute><ColorPicker /></ProtectedRoute>
-          }/>
+          } />
           <Route path="/utility/stopwatch" element={
             <ProtectedRoute><StopWatch /></ProtectedRoute>
           } />
-          
+
           <Route path="/utility/age-calculator" element={
             <ProtectedRoute><AgeCalculator /></ProtectedRoute>
           } />
