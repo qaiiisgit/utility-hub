@@ -38,6 +38,12 @@
 | 2 | 💱 **Currency Converter** | Convert between 10 world currencies with swap |
 | 3 | 📝 **Todo List** | Add, complete, delete, filter tasks with persistence |
 | 4 | 🔐 **Password Generator** | Customizable length, character types, strength meter |
+| 5 | ⚖️ **BMI Calculator** | Metric/Imperial with color-coded health categories |
+| 6 | 📐 **Unit Converter** | Length, Weight, Temperature, Volume conversions |
+| 7 | 📒 **Notepad** | Multi-note editor with auto-save & word count |
+| 8 | 🎨 **Color Picker** | HEX/RGB/HSL formats, sliders, save palette |
+| 9 | ⏱️ **Stopwatch** | Centisecond precision with lap tracking (best/worst) |
+| 10 | 🎂 **Age Calculator** | Exact age + total days/weeks/hours + next birthday |
 
 ---
 
