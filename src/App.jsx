@@ -20,17 +20,29 @@ const Dashboard = lazy(() => import('./pages/Dashboard'));
 // import Register from './pages/Register'
 // import Dashboard from './pages/Dashboard'
 
+// Utility Pages (Lazy Loaded)
+const Calculator = lazy(()=> import('./pages/utilities/Calculator'));
+const CurrencyConverter = lazy(() => import('./pages/utilities/CurrencyConverter'))
+const TodoList = lazy(() => import('./pages/utilities/TodoList'))
+const PasswordGenerator = lazy(() => import('./pages/utilities/PasswordGenerator'))
+const BMICalculator = lazy(() => import('./pages/utilities/BMICalculator'))
+const UnitConverter = lazy(() => import('./pages/utilities/UnitConverter'))
+const NotePad = lazy(() => import('./pages/utilities/NotePad'))
+const ColorPicker = lazy(() => import('./pages/utilities/ColorPicker'))
+const StopWatch = lazy(() => import('./pages/utilities/StopWatch'))
+const AgeCalculator = lazy(() => import('./pages/utilities/AgeCalculator'))
 
-import Calculator from './pages/utilities/Calculator'
-import CurrencyConverter from './pages/utilities/CurrencyConverter'
-import TodoList from './pages/utilities/TodoList'
-import PasswordGenerator from './pages/utilities/PasswordGenerator'
-import BMICalculator from './pages/utilities/BMICalculator'
-import UnitConverter from './pages/utilities/UnitConverter'
-import NotePad from './pages/utilities/NotePad'
-import ColorPicker from './pages/utilities/ColorPicker'
-import StopWatch from './pages/utilities/StopWatch'
-import AgeCalculator from './pages/utilities/AgeCalculator'
+
+// import Calculator from './pages/utilities/Calculator'
+// import CurrencyConverter from './pages/utilities/CurrencyConverter'
+// import TodoList from './pages/utilities/TodoList'
+// import PasswordGenerator from './pages/utilities/PasswordGenerator'
+// import BMICalculator from './pages/utilities/BMICalculator'
+// import UnitConverter from './pages/utilities/UnitConverter'
+// import NotePad from './pages/utilities/NotePad'
+// import ColorPicker from './pages/utilities/ColorPicker'
+// import StopWatch from './pages/utilities/StopWatch'
+// import AgeCalculator from './pages/utilities/AgeCalculator'
 
 const App = () => {
   return (
