@@ -21,7 +21,7 @@ const Dashboard = lazy(() => import('./pages/Dashboard'));
 // import Dashboard from './pages/Dashboard'
 
 // Utility Pages (Lazy Loaded)
-const Calculator = lazy(()=> import('./pages/utilities/Calculator'));
+const Calculator = lazy(() => import('./pages/utilities/Calculator'));
 const CurrencyConverter = lazy(() => import('./pages/utilities/CurrencyConverter'))
 const TodoList = lazy(() => import('./pages/utilities/TodoList'))
 const PasswordGenerator = lazy(() => import('./pages/utilities/PasswordGenerator'))
