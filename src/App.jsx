@@ -63,49 +63,51 @@ const App = () => {
     <div className="min-h-screen bg-gray-950 text-white flex flex-col">
       <Navbar />
       <main className="flex-1">
-        <Routes>
-          <Route path="/" element={<LandingPage />} />
-          <Route path="/about" element={<About />} />
-          <Route path="/contact" element={<Contact />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/register" element={<Register />} />
-          <Route path="/dashboard" element={
-            <ProtectedRoute><Dashboard /></ProtectedRoute>
-          } />
-          <Route path="/utility/calculator" element={
-            <ProtectedRoute><Calculator /></ProtectedRoute>
-          } />
-          <Route path="/utility/currency-converter" element={
-            <ProtectedRoute><CurrencyConverter /></ProtectedRoute>
-          } />
-          <Route path="/utility/todo-list" element={
-            <ProtectedRoute><TodoList /></ProtectedRoute>
-          } />
-          <Route path="/utility/password-generator" element={
-            <ProtectedRoute><PasswordGenerator /></ProtectedRoute>
-          } />
+        <Suspense fallback={<PageLoader />}>
+          <Routes>
+            <Route path="/" element={<LandingPage />} />
+            <Route path="/about" element={<About />} />
+            <Route path="/contact" element={<Contact />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/register" element={<Register />} />
+            <Route path="/dashboard" element={
+              <ProtectedRoute><Dashboard /></ProtectedRoute>
+            } />
+            <Route path="/utility/calculator" element={
+              <ProtectedRoute><Calculator /></ProtectedRoute>
+            } />
+            <Route path="/utility/currency-converter" element={
+              <ProtectedRoute><CurrencyConverter /></ProtectedRoute>
+            } />
+            <Route path="/utility/todo-list" element={
+              <ProtectedRoute><TodoList /></ProtectedRoute>
+            } />
+            <Route path="/utility/password-generator" element={
+              <ProtectedRoute><PasswordGenerator /></ProtectedRoute>
+            } />
 
-          <Route path="/utility/bmi-calculator" element={
-            <ProtectedRoute><BMICalculator /></ProtectedRoute>
-          }></Route>
+            <Route path="/utility/bmi-calculator" element={
+              <ProtectedRoute><BMICalculator /></ProtectedRoute>
+            }></Route>
 
-          <Route path="utility/unit-converter" element={
-            <ProtectedRoute><UnitConverter /></ProtectedRoute>
-          } />
-          <Route path="/utility/notepad" element={
-            <ProtectedRoute><NotePad /></ProtectedRoute>
-          } />
-          <Route path="/utility/color-picker" element={
-            <ProtectedRoute><ColorPicker /></ProtectedRoute>
-          } />
-          <Route path="/utility/stopwatch" element={
-            <ProtectedRoute><StopWatch /></ProtectedRoute>
-          } />
+            <Route path="utility/unit-converter" element={
+              <ProtectedRoute><UnitConverter /></ProtectedRoute>
+            } />
+            <Route path="/utility/notepad" element={
+              <ProtectedRoute><NotePad /></ProtectedRoute>
+            } />
+            <Route path="/utility/color-picker" element={
+              <ProtectedRoute><ColorPicker /></ProtectedRoute>
+            } />
+            <Route path="/utility/stopwatch" element={
+              <ProtectedRoute><StopWatch /></ProtectedRoute>
+            } />
 
-          <Route path="/utility/age-calculator" element={
-            <ProtectedRoute><AgeCalculator /></ProtectedRoute>
-          } />
-        </Routes>
+            <Route path="/utility/age-calculator" element={
+              <ProtectedRoute><AgeCalculator /></ProtectedRoute>
+            } />
+          </Routes>
+        </Suspense>
       </main>
       <Footer />
     </div>
