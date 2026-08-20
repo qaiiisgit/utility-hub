@@ -44,6 +44,20 @@ const AgeCalculator = lazy(() => import('./pages/utilities/AgeCalculator'))
 // import StopWatch from './pages/utilities/StopWatch'
 // import AgeCalculator from './pages/utilities/AgeCalculator'
 
+// const PageLoader = () => (
+//   <div className="flex flex-col items-center justify-center min-h-[60vh] gap-3">
+//     <div className="w-10 h-10 border-4 border-indigo-500/30 border-t-indigo-500 rounded-full animate-spin" />
+//     <p className="text-gray-400 text-sm font-medium tracking-wide">Loading component...</p>
+//   </div>
+// )
+
+const PageLoader = () => (
+  <div className='flex flex-col items-center justify-center min-h-[60vh] gap-3'>
+    <div className='w-10 h-10 border-4 border-indigo-500/30 border-t-indigo-500 rounded-full animate-spin' />
+    <p className='text-gray-400 text-sm font-medium tracking-wide'>Loading componenet...</p>
+  </div>
+)
+
 const App = () => {
   return (
     <div className="min-h-screen bg-gray-950 text-white flex flex-col">
